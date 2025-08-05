@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "/assets/img/service/service3-img1.png",
+    "title": "SEO Marketing",
+    "desc": "Search Engine Optimize (SEO) best marketing is to essential for boosting your website visibility in best search engine results.",   
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/service/service3-img2.png",
+    "title": "Content Marketing",
+    "desc": "Content marketing is a strategic approach focused on creating  distributing valuable, relevant, and consistent content result.",   
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/service/service3-img3.png",
+    "title": "Digital Marketing",
+    "desc": "Digital marketing encompasses all online marketing best efforts  connect with potential digital an grow your business strategy.",   
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/service/service3-img4.png",
+    "title": "Email Marketing",
+    "desc": "Email marketing is a digital of marketing strategy that involve sending emails to a targeted list of recipients with the best goal.",   
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/service/service3-img5.png",
+    "title": "PPC Advertise",
+    "desc": "Expand your audience by advertising on Bing. Our Bing Ads management services include campaign creation, optimization.",   
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/service/service3-img6.png",
+    "title": "Social Media Marketing",
+    "desc": "Discover the keywords your competitors are targeting. We conduct thorough best keyword research to identify the terms.",   
+    "btnLink": "/service/service-details"
+  }  
+]

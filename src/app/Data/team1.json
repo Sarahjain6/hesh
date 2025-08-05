@@ -1,0 +1,31 @@
+[
+  {
+    "img": "/assets/img/team/hesh2.png",  
+    "title": "Rachit Gupta",
+    "desc": "Co-Founder and CEO",
+    "twitter": "#",
+    "linkedin": "#",
+    "instagram": "#",
+    "facebook": "#"
+  },
+  {
+    "img": "/assets/img/team/hesh1.png",
+    "title": "Simran Khosla",
+    "desc": "Co-Founder and Graphic Designer",
+    "twitter": "#",
+    "linkedin": "#",
+    "instagram": "#",
+    "facebook": "#"
+  },
+   {
+    "img": "/assets/img/team/hesh2.png",  
+    "title": "Devin Romaguera",
+    "desc": "Social Media Manager",
+    "twitter": "#",
+    "linkedin": "#",
+    "instagram": "#",
+    "facebook": "#"
+  }
+  
+ 
+]

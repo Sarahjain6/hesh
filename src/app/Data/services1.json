@@ -1,0 +1,60 @@
+[
+  {
+    "icon": "/assets/img/icons/service-icon7.svg",
+    "title": "Professional Camera Shoots",
+    "desc": "Capture high-quality, brand-aligned visuals through professional photography and videography services.",
+    "btnLink": "/service/professional-shoots",
+    "addclass": "service-box active"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon1.svg",
+    "title": "Social Media Management",
+    "desc": "Transform your social presence with professional, consistent branding and engaging posts.",
+    "btnLink": "/service/social-media-management",
+    "addclass": "service-box noactive"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon6.svg",
+    "title": "Google SEO",
+    "desc": "Boost your website's visibility and ranking on Google with expert SEO strategies.",
+    "btnLink": "/service/google-seo",
+    "addclass": "service-box noactive"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon2.svg",
+    "title": "Graphic Designing",
+    "desc": "Create visually stunning content, including logos, infographics, and tailored designs.",
+    "btnLink": "/service/graphic-designing",
+    "addclass": "service-box noactive"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon3.svg",
+    "title": "Video Editing",
+    "desc": "Create professionally edited videos with seamless transitions, effects, and compelling storytelling to captivate your audience.",
+    "btnLink": "/service/video-editing",
+    "addclass": "service-box noactive"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon4.svg",
+    "title": "Web Development",
+    "desc": "Build responsive, visually engaging websites that exceed your business objectives.",
+    "btnLink": "/service/web-development",
+    "addclass": "service-box noactive"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon5.svg",
+    "title": "Performance Marketing",
+    "desc": "Drive measurable results and ROI with targeted performance marketing campaigns.",
+    "btnLink": "/service/performance-marketing",
+    "addclass": "service-box noactive"
+  },
+  
+  
+  {
+    "icon": "/assets/img/icons/service-icon8.svg",
+    "title": "Email & WhatsApp Marketing",
+    "desc": "Engage your audience directly through personalized email and WhatsApp campaigns.",
+    "btnLink": "/service/email-whatsapp-marketing",
+    "addclass": "service-box noactive"
+  }
+]
