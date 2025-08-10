@@ -1,4 +1,4 @@
-import Email from '@/app/Components/CaseDetails/email.jsx';
+import Email from '@/app/Components/Details/email.jsx';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';

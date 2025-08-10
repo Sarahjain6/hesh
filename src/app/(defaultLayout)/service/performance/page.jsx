@@ -1,4 +1,4 @@
-import Performance from '@/app/Components/CaseDetails/performance.jsx';
+import Performance from '@/app/Components/Details/performance.jsx';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';
