@@ -4,7 +4,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const CaseDetailsRight = () => {
+const Performance = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -38,24 +38,27 @@ const CaseDetailsRight = () => {
                                         </div>
                                         <div className="space30"></div>
                                         <div className="heading1">
-                                            <h3>SEO Tracking Analysis</h3>
+                                            <h3>Performance Marketing</h3>
                                             <div className="space16"></div>
-                                            <p>We optimise your Google Business Profile to help you rank higher in local searches. From updating key business info to targeting local keywords, we make sure your brand shows up where it matters.
-
-Whether someone's searching nearby or by category, we position you right in front of your audience. Our SEO service includes:</p>
+                                            <p>Drive measurable results with targeted ads and data-driven strategies. We help you reach the right audience, maximise ROI, and grow your business through performance marketing.
+Our performance marketing services focus on delivering real outcomes—more leads, more sales, and better brand visibility.</p>
                                         </div>
                                         <div className="row">
                                             <div className="col-md-5">
                                                 <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Targeting local keywords </li>
-                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Updating key business information</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Targeted ad campaigns across Google, Meta, and more
+
+
+
+ </li>
+                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Conversion tracking and analytics</li>
                                            
                                                 </ul>
                                             </div>
                                             <div className="col-md-7">
                                                 <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Optimising your Google Business Profile</li>
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Ensuring your brand appears in relevant local searches</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Continuous optimisation for best results</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Transparent reporting and ROI focus</li>
                                                
                                                 </ul>
                                             </div>
@@ -118,4 +121,4 @@ Whether someone's searching nearby or by category, we position you right in fron
     );
 };
 
-export default CaseDetailsRight;
+export default Performance;

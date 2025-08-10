@@ -8,13 +8,13 @@ import Testimonial1 from '@/app/Components/Testimonial/Testimonial1';
 import Work5 from '@/app/Components/Work/Work5';
 import Pricing1 from '@/app/Components/Pricing/Pricing1';
 import React from 'react';
-
+import Faq3 from '@/app/Components/Faq/Faq3';
 const page = () => {
     return (
         <div>
             <BreadCumb
                 bgimg="/assets/img/bg/comon-hero-bg.jpg"
-                Title="About SEOMAX"
+                Title="About Hesh"
             ></BreadCumb> 
             <About1
                 img1="/assets/img/about/about1-main-img.png"
@@ -42,11 +42,12 @@ const page = () => {
                 img2="/assets/img/about/about1-shape1.png"
                 img3="/assets/img/about/about1-shape2.png"
             ></About4>
-             <Skill></Skill>
-             <Work5></Work5> 
-             <Team2></Team2>
+             
+            
+              <Faq3></Faq3> 
             <Testimonial1></Testimonial1>  
-            <ContactInfo4></ContactInfo4>                                                
+             <Pricing1></Pricing1>
+                                                           
         </div>
     );
 };

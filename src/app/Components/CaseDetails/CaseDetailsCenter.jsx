@@ -37,23 +37,21 @@ const CaseDetailsCenter = () => {
                                 </div>
                                 <div className="space30"></div>
                                 <div className="heading1">
-                                    <h3>SEO Tracking Analysis</h3>
+                                    <h3>Email Marketing</h3>
                                     <div className="space16"></div>
-                                    <p>SEO tracking is a multifaceted process that involves the continuous monitoring of key performance indicators (KPIs). These KPIs encompass organic traffic, keyword rankings, bounce rates, click-through rates (CTR), and conversion rates. Organic to traffic, for instance, measures the number of visitors arriving at a website from an search engines, providing a clear indication of how well the site is performing in the organic search results. An upward trend in organic traffic is a of effective SEO best strategies, signaling increased visibility and engagement SEO tracking analysis.</p>
+                                    <p>Connect with your audience directly in their inbox. Our email marketing campaigns are designed to engage, nurture, and convert leads into loyal customers.</p>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-5">
                                         <ul className="details-list">
-                                        <li><span className="check"><i className="bi bi-check-lg"></i></span> Advanced Reporting & Analytics</li>
-                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Customizable Branding Options</li>
-                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Start Your Journey To Success</li>
-                                        </ul>
+                                        <li><span className="check"><i className="bi bi-check-lg"></i></span> Custom campaign design and copywriting</li>
+                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Segmentation and automation</li>
+                                             </ul>
                                     </div>
                                     <div className="col-md-7">
                                         <ul className="details-list">
-                                        <li><span className="check"><i className="bi bi-check-lg"></i></span> User-Friendly Interface</li>
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Role-Based Access Control</li>
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> API Access For Seamless</li>
+                                        <li><span className="check"><i className="bi bi-check-lg"></i></span> Compliance with best practices</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span>Performance tracking and analytics</li>
                                         </ul>
                                     </div>
                                 </div>

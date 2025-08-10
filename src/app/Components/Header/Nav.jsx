@@ -13,7 +13,7 @@ export default function Nav({ setMobileToggle }) {
 
            
       <li>
-  <Link href="#" onClick={() => setMobileToggle(false)}>
+  <Link href="/about" onClick={() => setMobileToggle(false)}>
     About Us
   </Link>
 </li>
@@ -25,18 +25,52 @@ export default function Nav({ setMobileToggle }) {
         <DropDown>
           <ul>
             <li>
-              <Link href="#" onClick={() => setMobileToggle(false)}>
-                Services 1
+              <Link href="/service/seo" onClick={() => setMobileToggle(false)}>
+                Google Seo
+
+
               </Link>
             </li>
             <li>
-              <Link href="#" onClick={() => setMobileToggle(false)}>
-                Services 2
+              <Link href="/service/shoots" onClick={() => setMobileToggle(false)}>
+                Professional Camera Shoots
+
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/graphic" onClick={() => setMobileToggle(false)}>
+                Graphic Designing
+
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/webdev" onClick={() => setMobileToggle(false)}>
+                Web Development
+
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/video" onClick={() => setMobileToggle(false)}>
+                Video Editing
+
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/social" onClick={() => setMobileToggle(false)}>
+                Social Media Management
+
               </Link>
             </li>            
             <li>
-              <Link href="#" onClick={() => setMobileToggle(false)}>
-                Service 3
+              <Link href="/service/email" onClick={() => setMobileToggle(false)}>
+                Email and Whatsapp Marketing
+
+              </Link>
+            </li>
+            <li>
+              <Link href="/service/performance" onClick={() => setMobileToggle(false)}>
+                Performance Marketing
+
               </Link>
             </li>
           </ul>
@@ -44,7 +78,7 @@ export default function Nav({ setMobileToggle }) {
 
       </li>      
       <li>
-        <Link href="#" onClick={() => setMobileToggle(false)}>
+        <Link href="/portfolio/portfolio-full" onClick={() => setMobileToggle(false)}>
           Portfolio
         </Link>
       </li>

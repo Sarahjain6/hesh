@@ -4,7 +4,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const CaseDetailsRight = () => {
+const Case1t = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -38,25 +38,23 @@ const CaseDetailsRight = () => {
                                         </div>
                                         <div className="space30"></div>
                                         <div className="heading1">
-                                            <h3>SEO Tracking Analysis</h3>
+                                            <h3>Email Marketing</h3>
                                             <div className="space16"></div>
-                                            <p>We optimise your Google Business Profile to help you rank higher in local searches. From updating key business info to targeting local keywords, we make sure your brand shows up where it matters.
-
-Whether someone's searching nearby or by category, we position you right in front of your audience. Our SEO service includes:</p>
+                                            <p>Connect with your audience directly in their inbox. Our email marketing campaigns are designed to engage, nurture, and convert leads into loyal customers.
+We craft personalised email strategies that drive results for your brand.</p>
                                         </div>
                                         <div className="row">
                                             <div className="col-md-5">
                                                 <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Targeting local keywords </li>
-                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Updating key business information</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Custom campaign design and copywriting</li>
+                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Segmentation and automation</li>
                                            
                                                 </ul>
                                             </div>
                                             <div className="col-md-7">
                                                 <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Optimising your Google Business Profile</li>
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Ensuring your brand appears in relevant local searches</li>
-                                               
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Performance tracking and analytics</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Compliance with best practices</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -64,36 +62,39 @@ Whether someone's searching nearby or by category, we position you right in fron
                                 </article>
 
                                 <div className="space70"></div>
-                               
+                                
 
                                 <div className="space60"></div>
-                               
+                                
                                 <div className="space10"></div>
-                                <div className="details-accodion">
-                                    <div className="accordion accordion1" id="accordionExample">
-        
-                                   
-
-                            
-                                      </div>
-                            
-                                </div>
+                                
 
                             </div>
                         </div>
 
                         <div className="col-lg-4">
                             <div className="side-all">
-                                   
+                                <div className="details-sidebox">
+                                  <h3>Search</h3>
+                                  <div className="search-area">
+                                      <form action="#">
+                                          <input type="search" placeholder="Search..." />
+                                          <div className="button">
+                                          <button type="submit"><i className="bi bi-search"></i></button>
+                                          </div>
+                                      </form>
+                                  </div>
+                              </div>
+    
                               <div className="details-sidebox">
-                                  <h3>Other Services </h3>
+                                  <h3>Other Services</h3>
                                   <div className="categorys">
                                       <ul>
-                                      <li><Link href="/service/seo">SEO & Digital Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                      <li><Link href="/case/case-details">SEO & Digital Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                   <li><Link href="/case/case-details">Pay-Per-Click Strategy <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                   <li><Link href="/case/case-details">Social Media Success <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                   <li><Link href="/case/case-details">Social Media Campaigns <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Local Business Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/case/case-details">Video Editing  <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                   <li><Link href="/case/case-details">E-commerce SEO <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                       </ul>
                                   </div>
@@ -104,7 +105,7 @@ Whether someone's searching nearby or by category, we position you right in fron
                               <div className="details-sidebox">
                                 <h3>If You Need Any SEO And Digital Marketing Help ?</h3>
                                 <div className="phone-btn">
-                                    <a href="tel:+918360255087"><Image src="/assets/img/icons/details-call-icon.svg" alt="img" width={24} height={24}   />+91 8360255087</a>
+                                    <a href="tel:+91+91 83602 55087"><Image src="/assets/img/icons/details-call-icon.svg" alt="img" width={24} height={24}   />+91 +91 83602 55087</a>
                                 </div>
                             </div>
 
@@ -118,4 +119,4 @@ Whether someone's searching nearby or by category, we position you right in fron
     );
 };
 
-export default CaseDetailsRight;
+export default Case1;

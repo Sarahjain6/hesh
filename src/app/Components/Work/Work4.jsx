@@ -1,75 +1,156 @@
+"use client";
+import { useEffect } from "react";
+import loadBackgroudImages from "../Common/loadBackgroudImages";
+import Slider from "react-slick";
 import Image from "next/image";
 
 const Work4 = () => {
-    return (
-        <div className="what-we-do5 sp">
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    responsive: [
+      { breakpoint: 1399, settings: { slidesToShow: 5 } },
+      { breakpoint: 1199, settings: { slidesToShow: 3 } },
+      { breakpoint: 575, settings: { slidesToShow: 1 } },
+    ],
+  };
+
+  const companyLogos = [
+    { src: "/assets/img/logo/logo1.jpg", name: "", link: "#" },
+    { src: "/assets/img/logo/logo2.jpg", name: "", link: "#" },
+    { src: "/assets/img/logo/logo3.jpg", name: "", link: "#" },
+    { src: "/assets/img/logo/logo4.jpg", name: "", link: "#" },
+    { src: "/assets/img/logo/logo5.jpg", name: "", link: "#" },
+    { src: "/assets/img/logo/logo6.jpg", name: "Company Six", link: "#" },
+    { src: "/assets/img/logo/logo7.jpg", name: "Company Seven", link: "#" },
+    { src: "/assets/img/logo/logo8.jpg", name: "Company Eight", link: "#" },
+    { src: "/assets/img/logo/logo9.jpg", name: "Company Nine", link: "#" },
+    { src: "/assets/img/logo/logo10.jpg", name: "Company Ten", link: "#" },
+    { src: "/assets/img/logo/logo11.jpg", name: "Company Eleven", link: "#" },
+    { src: "/assets/img/logo/logo12.jpg", name: "Company Twelve", link: "#" },
+    { src: "/assets/img/logo/logo13.jpg", name: "Company Thirteen", link: "#" },
+    { src: "/assets/img/logo/logo14.jpg", name: "Company Fourteen", link: "#" },
+    { src: "/assets/img/logo/logo15.jpg", name: "Company Fifteen", link: "#" },
+  ];
+
+  return (
+    <div>
+      <div
+        className="about-team"
+        data-background="/assets/img/bg/about-team-bg.jpg"
+      >
         <div className="container">
-            <div className="row">
-                <div className="col-lg-5">
-                    <div className="heading5">
-                        <p className="title" data-aos="fade-left" data-aos-duration="800"> <span className="span">
-                        <Image src="/assets/img/logo/span5.svg" alt="img" width={20} height={20}   />
-                            What we do</span></p>
-                        <h2 className="text-anime-style-3">Proven Social Media Marketing Tactics</h2>
-                        <div className="space16"></div>
-                        <p data-aos="fade-left" data-aos-duration="700">Transform your brands online presence with our seo expert social media marketing services. At SEOMAX, we specialize a crafting strategic, data-driven social.</p>
-                        <div className="space30"></div>
-                       <div className="" data-aos="fade-left" data-aos-duration="1000">
-                        <a className="theme-btn3" href="service1.html">Explore Our Services <span><i className="bi bi-arrow-right"></i></span></a>
-                       </div>
-                      </div>
-                </div>
-                <div className="col-lg-1"></div>
-                <div className="col-lg-6">
-                    <div className="boxs-all">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="space30"></div>
-                                <div className="single-boxs" data-aos="zoom-out" data-aos-duration="700">
-                                    <h3>13K</h3>
-                                    <p>Project Complete</p>
-                                </div>
-                                <div className="single-boxs" data-aos="zoom-out" data-aos-duration="900">
-                                    <h3>49+</h3>
-                                    <p>Awards Winning</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="single-boxs" data-aos="zoom-out" data-aos-duration="1100">
-                                    <h3>12K</h3>
-                                    <p>Happy Client</p>
-                                </div>
-                                <div className="single-boxs" data-aos="zoom-out" data-aos-duration="1300">
-                                    <h3>98%</h3>
-                                    <p>Success Rate</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div className="row">
+            <div className="col-lg-6 m-auto text-center">
+              <div className="heading1-w">
+                <p className="title">
+                  <span className="span">
+                    <Image
+                      src="/assets/img/icons/span1-w.svg"
+                      alt="img"
+                      width={20}
+                      height={20}
+                    />
+                    Our expert team
+                  </span>
+                </p>
+                <h2>Experts Social Media Marketing</h2>
+              </div>
             </div>
-            <div className="what-we-do5-images">
-                <div className="row align-items-center">
-                    <div className="col-lg-3 col-md-4">
-                       <div className="image image-anime reveal">
-                       <Image src="/assets/img/service/what-we-do5-img1.png" alt="img" width={306} height={385}   />
-                       </div> 
-                    </div>
-                    <div className="col-lg-6 col-md-4">
-                        <div className="image image-anime reveal">
-                        <Image src="/assets/img/service/what-we-do5-img2.png" alt="img" width={636} height={463}   />
-                        </div> 
-                     </div>
-                     <div className="col-lg-3 col-md-4">
-                        <div className="image image-anime reveal">
-                        <Image src="/assets/img/service/what-we-do5-img3.png" alt="img" width={306} height={385}   />
-                        </div> 
-                     </div>
-                </div>
-            </div>
+          </div>
+          <img
+            src="/assets/img/team/about-team-main.png"
+            alt=""
+            className="main-img"
+          />
         </div>
-       </div>
-    );
+      </div>
+
+      <div className="about-team-brands py-10">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 brands-bg text-center">
+              <div className="heading mb-6">
+                <p>Trusted By Top Companies</p>
+              </div>
+              <div className="team-logo-slider owl-carousel">
+                <Slider {...settings}>
+                  {companyLogos.map((company, index) => (
+                    <div
+                      key={index}
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        padding: "0 12px",
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: "120px",
+                          height: "120px",
+                          borderRadius: "50%",
+                          overflow: "hidden",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <Image
+                          src={company.src}
+                          alt={`img${index + 1}`}
+                          width={120}
+                          height={120}
+                          style={{
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                          }}
+                        />
+                      </div>
+                      <a
+                        href={company.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          marginTop: "10px",
+                          fontSize: "16px",
+                          fontWeight: "600",
+                          textDecoration: "none",
+                          color: "#333",
+                          textAlign: "center",
+                          display: "block",
+                          transition: "color 0.3s",
+                        }}
+                        onMouseEnter={(e) =>
+                          (e.currentTarget.style.color = "#007bff")
+                        }
+                        onMouseLeave={(e) =>
+                          (e.currentTarget.style.color = "#333")
+                        }
+                      >
+                        {company.name}
+                      </a>
+                    </div>
+                  ))}
+                </Slider>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Work4;

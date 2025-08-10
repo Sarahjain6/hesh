@@ -3,7 +3,7 @@ import HeroBanner1 from '../Components/HeroBanner/HeroBanner1';
 import About1 from '../Components/About/About1';
 import Services1 from '../Components/Services/Services1';
 import Work1 from '../Components/Work/Work1';
-import Work5 from '../Components/Work/Work5';
+import Work4 from '../Components/Work/Work4';
 import CaseStudy1 from '../Components/CaseStudy/CaseStudy1';
 import Team1 from '../Components/Team/Team1';
 
@@ -45,11 +45,7 @@ const page = () => {
             ></About1>   
             <Services1></Services1> 
             <Work1></Work1>
-            <Work5></Work5>
-            
-           
-
-           
+            <Work4></Work4>
             <Testimonial1></Testimonial1> 
             <Pricing1></Pricing1>   
             

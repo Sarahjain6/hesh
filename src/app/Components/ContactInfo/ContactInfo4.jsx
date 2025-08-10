@@ -15,12 +15,12 @@ const ContactInfo4 = () => {
           <div className="row">
             <div className="col-lg-6 m-auto text-center">
               <div className="heading">
-                <h2>Maximize Your ROI with Our Best SEO Solutions</h2>
+                <h2>Maximize Your ROI with Our Best Solutions</h2>
                 <div className="form-area">
                   <form action="#">
-                    <input type="email" placeholder="Your Website URL" />
+                    
                     <div className="form-btn">
-                      <button className="theme-btn1">Analyze Website <span><i className="bi bi-arrow-right"></i></span></button>
+                     
                     </div>
                   </form>
                 </div>

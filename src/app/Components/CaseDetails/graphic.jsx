@@ -4,7 +4,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const CaseDetailsRight = () => {
+const Graphic = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -38,27 +38,13 @@ const CaseDetailsRight = () => {
                                         </div>
                                         <div className="space30"></div>
                                         <div className="heading1">
-                                            <h3>SEO Tracking Analysis</h3>
+                                            <h3>Graphic Designing</h3>
                                             <div className="space16"></div>
-                                            <p>We optimise your Google Business Profile to help you rank higher in local searches. From updating key business info to targeting local keywords, we make sure your brand shows up where it matters.
-
-Whether someone's searching nearby or by category, we position you right in front of your audience. Our SEO service includes:</p>
+                                            <p>Our graphic design services include creating infographics and visually engaging content tailored to your brand's unique needs. We transform information into creative, eye-catching designs that effectively communicate your message.</p>
                                         </div>
                                         <div className="row">
-                                            <div className="col-md-5">
-                                                <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Targeting local keywords </li>
-                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Updating key business information</li>
+                                 
                                            
-                                                </ul>
-                                            </div>
-                                            <div className="col-md-7">
-                                                <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Optimising your Google Business Profile</li>
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Ensuring your brand appears in relevant local searches</li>
-                                               
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                 </article>
@@ -118,4 +104,4 @@ Whether someone's searching nearby or by category, we position you right in fron
     );
 };
 
-export default CaseDetailsRight;
+export default Graphic;

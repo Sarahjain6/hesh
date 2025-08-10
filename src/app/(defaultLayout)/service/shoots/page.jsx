@@ -1,4 +1,5 @@
-import CaseDetailsLeft from '@/app/Components/CaseDetails/CaseDetailsLeft';
+import CaseStudy3 from '@/app/Components/CaseStudy/CaseStudy3';
+import Shoots from '@/app/Components/CaseDetails/shoots';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';
@@ -8,10 +9,11 @@ const page = () => {
         <div>
             <BreadCumb
                 bgimg="/assets/img/bg/comon-hero-bg.jpg"
-                Title="Case Studies Details"
+                Title="Services"
             ></BreadCumb>  
-            <CaseDetailsLeft></CaseDetailsLeft>
-            <ContactInfo4></ContactInfo4>             
+           <Shoots></Shoots>
+           <CaseStudy3></CaseStudy3>
+            <ContactInfo4></ContactInfo4>                
         </div>
     );
 };

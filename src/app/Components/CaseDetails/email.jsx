@@ -4,7 +4,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const CaseDetailsRight = () => {
+const Email = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -38,24 +38,26 @@ const CaseDetailsRight = () => {
                                         </div>
                                         <div className="space30"></div>
                                         <div className="heading1">
-                                            <h3>SEO Tracking Analysis</h3>
+                                            <h3>Email Marketing</h3>
                                             <div className="space16"></div>
-                                            <p>We optimise your Google Business Profile to help you rank higher in local searches. From updating key business info to targeting local keywords, we make sure your brand shows up where it matters.
+                                            <p>Connect with your audience directly in their inbox. Our email marketing campaigns are designed to engage, nurture, and convert leads into loyal customers.
 
-Whether someone's searching nearby or by category, we position you right in front of your audience. Our SEO service includes:</p>
+We craft personalised email strategies that drive results for your brand.</p>
                                         </div>
                                         <div className="row">
                                             <div className="col-md-5">
                                                 <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Targeting local keywords </li>
-                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Updating key business information</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Custom campaign design and copywriting
+
+ </li>
+                                            <li><span className="check"><i className="bi bi-check-lg"></i></span> Segmentation and automation</li>
                                            
                                                 </ul>
                                             </div>
                                             <div className="col-md-7">
                                                 <ul className="details-list">
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Optimising your Google Business Profile</li>
-                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Ensuring your brand appears in relevant local searches</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Performance tracking and analytics</li>
+                                                <li><span className="check"><i className="bi bi-check-lg"></i></span> Compliance with best practices</li>
                                                
                                                 </ul>
                                             </div>
@@ -118,4 +120,4 @@ Whether someone's searching nearby or by category, we position you right in fron
     );
 };
 
-export default CaseDetailsRight;
+export default Email;

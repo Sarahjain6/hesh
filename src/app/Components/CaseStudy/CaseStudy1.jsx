@@ -1,7 +1,7 @@
 "use client"
 import Slider from 'react-slick';
 import SectionTitle from '../Common/SectionTitle';
-import data from '../../Data/casestudy1.json';
+import data from '../../Data/casestudy1.js';
 import { useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';

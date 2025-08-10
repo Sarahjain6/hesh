@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import Slider from "react-slick";
 import Image from "next/image";
 
 const Work5 = () => {
@@ -9,31 +8,22 @@ const Work5 = () => {
     loadBackgroudImages();
   }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    responsive: [
-      { breakpoint: 1399, settings: { slidesToShow: 5 } },
-      { breakpoint: 1199, settings: { slidesToShow: 3 } },
-      { breakpoint: 575, settings: { slidesToShow: 1 } },
-    ],
-  };
-
   const companyLogos = [
-    { src: "/assets/img/logo/logo1.jpg", name: "", link: "#" },
-    { src: "/assets/img/logo/logo2.jpg", name: "", link: "#" },
-    { src: "/assets/img/logo/logo3.jpg", name: "", link: "#" },
-    { src: "/assets/img/logo/logo4.jpg", name: "", link: "#" },
-    { src: "/assets/img/logo/logo5.jpg", name: "", link: "#" },
-    { src: "/assets/img/logo/logo6.jpg", name: "Company Six", link: "#" },
-    { src: "/assets/img/logo/logo7.jpg", name: "Company Seven", link: "#" },
-    { src: "/assets/img/logo/logo8.jpg", name: "Company Eight", link: "#" },
-    { src: "/assets/img/logo/logo9.jpg", name: "Company Nine", link: "#" },
+    { src: "/assets/img/logo/logo1.jpg", name: "Dr Yukti's Dental Studio ", link: "https://www.instagram.com/dryukti.dentalstudio" },
+    { src: "/assets/img/logo/logo2.jpg", name: "Majestic Starrss by Annureett", link: "https://www.instagram.com/majesticstarrssbyannureett?igsh=ZHlnZWNqbXd3bHF5" },
+    { src: "/assets/img/logo/logo3.jpg", name: "GD Goenka Toddler House", link: "https://www.instagram.com/gdgth.amr" },
+    { src: "/assets/img/logo/logo4.jpg", name: "The Royal Couture", link: "https://www.instagram.com/theroyalcouture._?igsh=MTk0dXNpdGpzY2V4eg%3D%3D" },
+    { src: "/assets/img/logo/logo5.jpg", name: "Naina Mehndiratta Singh", link: "https://www.instagram.com/dr_naina_gynecologist?igsh=MWFpZnVyODZlcWtmOA%3D%3D" },
+    { src: "/assets/img/logo/logo6.jpg", name: "Kmaxx American Hospital", link: "https://www.instagram.com/kmaxxamericanhospital" },
+    { src: "/assets/img/logo/logo7.jpg", name: "Alcon", link: "https://www.instagram.com/alconconcreteproducts/" },
+    { src: "/assets/img/logo/logo8.jpg", name: "Dr Shagun", link: "https://www.instagram.com/drshagun.randhawa/" },
+    { src: "/assets/img/logo/logo9.jpg", name: "Compedia", link: "https://www.instagram.com/compedia_learning/?igsh=MW9xeHpwYjZ2MzJybQ%3D%3D#" },
+    { src: "/assets/img/logo/logo10.jpg", name: "Dr Gulneer Nutrition", link: "https://www.instagram.com/dr_gulneer_nutrition/?igsh=MXFoeHQ2NWx0cXRnaQ%3D%3D#" },
+    { src: "/assets/img/logo/logo11.jpg", name: "Mundra Clinic", link: "https://www.instagram.com/mundradental/" },
+    { src: "/assets/img/logo/logo12.jpg", name: "Dental Excellence Ludhiana", link: "https://www.instagram.com/dentalexcellence.ludhiana/https://www.instagram.com/dentalexcellence.ludhiana/" },
+    { src: "/assets/img/logo/logo13.jpg", name: "Kmaxx Child Development Center", link: "https://www.instagram.com/kmaxx_cdc/" },
+    { src: "/assets/img/logo/logo14.jpg", name: "City Dental Clinic Amritsar", link: "https://www.instagram.com/citydentalclinicamritsar/?igsh=MTVocGs5bWNreTlpOA%3D%3D#" },
+    { src: "/assets/img/logo/logo15.jpg", name: "Dhillon", link: "https://www.instagram.com/dhillondentalstudio/" },
   ];
 
   return (
@@ -76,69 +66,72 @@ const Work5 = () => {
               <div className="heading mb-6">
                 <p>Trusted By Top Companies</p>
               </div>
-              <div className="team-logo-slider owl-carousel">
-                <Slider {...settings}>
-                  {companyLogos.map((company, index) => (
+
+              {/* Grid container for logos */}
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  gap: "30px", // space between logos
+                }}
+              >
+                {companyLogos.map((company, index) => (
+                  <div
+                    key={index}
+                    style={{
+                      width: "120px",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
                     <div
-                      key={index}
                       style={{
+                        width: "120px",
+                        height: "120px",
+                        borderRadius: "50%",
+                        overflow: "hidden",
                         display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
                         justifyContent: "center",
-                        padding: "0 12px",
+                        alignItems: "center",
                       }}
                     >
-                      <div
-                        style={{
-                          width: "120px",
-                          height: "120px",
-                          borderRadius: "50%",
-                          overflow: "hidden",
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        <Image
-                          src={company.src}
-                          alt={`img${index + 1}`}
-                          width={120}
-                          height={120}
-                          style={{
-                            width: "100%",
-                            height: "100%",
-                            objectFit: "cover",
-                          }}
-                        />
-                      </div>
-                      <a
-                        href={company.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          marginTop: "10px",
-                          fontSize: "16px",
-                          fontWeight: "600",
-                          textDecoration: "none",
-                          color: "#333",
-                          textAlign: "center",
-                          display: "block",
-                          transition: "color 0.3s",
-                        }}
-                        onMouseEnter={(e) =>
-                          (e.currentTarget.style.color = "#007bff")
-                        }
-                        onMouseLeave={(e) =>
-                          (e.currentTarget.style.color = "#333")
-                        }
-                      >
-                        {company.name}
-                      </a>
+                      <Image
+                        src={company.src}
+                        alt={`img${index + 1}`}
+                        width={120}
+                        height={120}
+                        style={{ objectFit: "cover" }}
+                      />
                     </div>
-                  ))}
-                </Slider>
+                    <a
+                      href={company.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        marginTop: "10px",
+                        fontSize: "16px",
+                        fontWeight: "600",
+                        textDecoration: "none",
+                        color: "#333",
+                        textAlign: "center",
+                        display: "block",
+                        transition: "color 0.3s",
+                      }}
+                      onMouseEnter={(e) =>
+                        (e.currentTarget.style.color = "#007bff")
+                      }
+                      onMouseLeave={(e) =>
+                        (e.currentTarget.style.color = "#333")
+                      }
+                    >
+                      {company.name || "\u00A0" /* Non-breaking space if no name */}
+                    </a>
+                  </div>
+                ))}
               </div>
+
             </div>
           </div>
         </div>

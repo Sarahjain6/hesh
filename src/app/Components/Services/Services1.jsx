@@ -11,7 +11,7 @@ const Services1 = () => {
         <div className="col-lg-6">
           <div className="heading1">
             <SectionTitle
-                SubTitle="our eo services"
+                SubTitle="our seo services"
                 Title="Features Loved Our SEO <br/> Digital Marketing Services"
             ></SectionTitle>
            </div>

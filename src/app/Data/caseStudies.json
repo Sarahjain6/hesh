@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "seo-case-study",
+    "title": "SEO Growth Case Study",
+    "topic": "SEO",
+    "description": "How we increased organic traffic by 200% in 6 months.",
+    "image": "/assets/img/case-studies/seo.jpg",
+    "list1": ["Keyword research", "On-page optimization", "Content strategy"],
+    "list2": ["Technical SEO audit", "Backlink outreach"],
+    "bgimg": "/assets/img/breadcrumbs/seo-bg.jpg"
+  },
+  {
+    "slug": "social-media-case-study",
+    "title": "Social Media Marketing Success",
+    "topic": "Social Media",
+    "description": "How we doubled engagement and conversions.",
+    "image": "/assets/img/case-studies/social.jpg",
+    "list1": ["Ad campaign setup", "Content calendar"],
+    "list2": ["Influencer partnerships", "Community management"],
+    "bgimg": "/assets/img/breadcrumbs/social-bg.jpg"
+  }
+]
