@@ -6,7 +6,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const CaseDetailsRight = () => {
+const Seo = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -119,4 +119,4 @@ Whether someone's searching nearby or by category, we position you right in fron
     );
 };
 
-export default CaseDetailsRight;
+export default Seo;
