@@ -55,12 +55,7 @@ export default function Nav({ setMobileToggle }) {
 
               </Link>
             </li>
-            <li>
-              <Link href="/service/social" onClick={() => setMobileToggle(false)}>
-                Social Media Management
-
-              </Link>
-            </li>            
+                        
             <li>
               <Link href="/service/email" onClick={() => setMobileToggle(false)}>
                 Email and Whatsapp Marketing

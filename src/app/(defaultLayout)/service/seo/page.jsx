@@ -1,4 +1,4 @@
-import Seo from '@/app/Components/Details/seo.jsx';
+import Seo from '@/app/Components/Details/seo';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';

@@ -1,4 +1,4 @@
-import Web from '@/app/Components/CaseDetails/Web.jsx';
+import Web from '@/app/Components/CaseDetails/Web';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';

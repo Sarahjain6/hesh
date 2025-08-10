@@ -1,4 +1,4 @@
-import Graphic from '@/app/Components/Details/graphic.jsx';
+import Graphic from '@/app/Components/Details/graphic';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';
