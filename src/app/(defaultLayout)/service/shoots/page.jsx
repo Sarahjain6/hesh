@@ -1,5 +1,5 @@
-import CaseStudy3 from '@/app/Components/CaseStudy/CaseStudy3';
-import Shoots from '@/app/Components/CaseDetails/shoots';
+import CaseStudy3 from '@/app/Components/CaseStudy/CaseStudy3.jsx';
+import Shoots from '@/app/Components/CaseDetails/shoots.jsx';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';

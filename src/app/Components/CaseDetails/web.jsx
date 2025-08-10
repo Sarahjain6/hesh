@@ -4,7 +4,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const Shoots = () => {
+const Web = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -101,4 +101,4 @@ const Shoots = () => {
     );
 };
 
-export default Shoots;
+export default Web;

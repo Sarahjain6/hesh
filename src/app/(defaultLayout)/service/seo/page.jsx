@@ -1,4 +1,4 @@
-import CaseDetailsRight from '@/app/Components/CaseDetails/CaseDetailsRight';
+import CaseDetailsRight from '@/app/Components/CaseDetails/CaseDetailsRight.jsx';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';

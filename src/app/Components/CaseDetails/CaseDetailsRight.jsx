@@ -1,4 +1,6 @@
 "use client"
+/* eslint-disable react/no-unescaped-entities */
+
 import { useEffect, useRef, useState } from "react";
 import data from '../../Data/faq.json';
 import Link from "next/link";
@@ -41,7 +43,6 @@ const CaseDetailsRight = () => {
                                             <h3>SEO Tracking Analysis</h3>
                                             <div className="space16"></div>
                                             <p>We optimise your Google Business Profile to help you rank higher in local searches. From updating key business info to targeting local keywords, we make sure your brand shows up where it matters.
-
 Whether someone's searching nearby or by category, we position you right in front of your audience. Our SEO service includes:</p>
                                         </div>
                                         <div className="row">
