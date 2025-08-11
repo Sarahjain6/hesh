@@ -1,3 +1,4 @@
+import Gallery from '@/app/Components/CaseStudy/graphicc';
 import Graphic from '@/app/Components/Details/graphic';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
@@ -11,6 +12,7 @@ const page = () => {
                 Title="Services"
             ></BreadCumb>  
            <Graphic></Graphic>
+           <Gallery></Gallery>
             <ContactInfo4></ContactInfo4>                
         </div>
     );

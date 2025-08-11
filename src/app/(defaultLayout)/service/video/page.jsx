@@ -1,3 +1,4 @@
+import Videoo from '@/app/Components/CaseStudy/videoo';
 import Video from '@/app/Components/Details/video';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
@@ -11,6 +12,7 @@ const page = () => {
                 Title="Services"
             ></BreadCumb>  
            <Video></Video>
+           <Videoo></Videoo>
             <ContactInfo4></ContactInfo4>                
         </div>
     );

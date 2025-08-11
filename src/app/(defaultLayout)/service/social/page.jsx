@@ -1,5 +1,5 @@
-import Seo from '@/app/Components/Details/seo';
-import Soo from '@/app/Components/CaseStudy/seoo';
+import Sociall from '@/app/Components/CaseStudy/sociall';
+import Media from '@/app/Components/Details/media';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import ContactInfo4 from '@/app/Components/ContactInfo/ContactInfo4';
 import React from 'react';
@@ -11,9 +11,8 @@ const page = () => {
                 bgimg="/assets/img/bg/comon-hero-bg.jpg"
                 Title="Services"
             ></BreadCumb>  
-           <Seo></Seo>
-           <Soo></Soo>
-          
+           <Media></Media>
+          <Sociall></Sociall>
             <ContactInfo4></ContactInfo4>                
         </div>
     );

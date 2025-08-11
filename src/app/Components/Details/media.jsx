@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client"
 import { useEffect, useRef, useState } from "react";
 import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const Social = () => {
+const Media = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -42,7 +43,10 @@ const Social = () => {
                                             <div className="space16"></div>
                                             <p>Our Social Media Management services help you establish a consistent and visually appealing online presence. We focus on creating engaging content with well-coordinated aesthetics and colors, ensuring your page stands out. With timely posting according to a proper schedule and effective campaign management, we drive traffic and track analytics to ensure your growth.</p>
                                         </div>
-                          
+                                        <div className="row">
+                                 
+                                           
+                                        </div>
                                     </div>
                                 </article>
 
@@ -68,7 +72,7 @@ const Social = () => {
                         <div className="col-lg-4">
                             <div className="side-all">
                                    
-                              <div className="details-sidebox">
+                             <div className="details-sidebox">
                                   <h3>Other Services </h3>
                                   <div className="categorys">
                                       <ul>
@@ -101,4 +105,4 @@ const Social = () => {
     );
 };
 
-export default Social;
+export default Media;

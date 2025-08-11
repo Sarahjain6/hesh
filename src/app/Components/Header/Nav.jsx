@@ -68,6 +68,12 @@ export default function Nav({ setMobileToggle }) {
 
               </Link>
             </li>
+             <li>
+              <Link href="/service/social" onClick={() => setMobileToggle(false)}>
+                Social Media  Marketing
+
+              </Link>
+            </li>
           </ul>
         </DropDown>
 

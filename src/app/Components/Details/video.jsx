@@ -38,9 +38,9 @@ const Video = () => {
                                         </div>
                                         <div className="space30"></div>
                                         <div className="heading1">
-                                            <h3>Web Development</h3>
+                                            <h3>Video Editing</h3>
                                             <div className="space16"></div>
-                                            <p>We specialize in crafting responsive and visually engaging websites that align seamlessly with your brand identity. Our skilled team ensures robust functionality, and user-friendly interfaces to meet and exceed your business objectives.</p>
+                                            <p>Professionally edited videos featuring seamless transitions, effects, and compelling storytelling to captivate your audience. From engaging content to talking head and ambiance videos, we bring your vision to life with creativity and precision.</p>
                                         </div>
                           
                                     </div>
@@ -72,12 +72,12 @@ const Video = () => {
                                   <h3>Other Services </h3>
                                   <div className="categorys">
                                       <ul>
-                                      <li><Link href="/service/seo">SEO & Digital Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Pay-Per-Click Strategy <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Social Media Success <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Social Media Campaigns <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Local Business Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">E-commerce SEO <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                      <li><Link href="/service/seo">Google Seo <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/webdev">Web Development <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="//service/shoots">Professional Camera Shoots <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/graphic">Graphic Designing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/email">Email and Whatsapp Marketing<span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/erformance">Performance Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                       </ul>
                                   </div>
                               </div>
