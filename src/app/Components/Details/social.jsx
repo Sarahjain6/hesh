@@ -4,7 +4,7 @@ import data from '../../Data/faq.json';
 import Link from "next/link";
 import Image from "next/image";
 
-const Web = () => {
+const Social = () => {
 
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -38,9 +38,9 @@ const Web = () => {
                                         </div>
                                         <div className="space30"></div>
                                         <div className="heading1">
-                                            <h3>Web Development</h3>
+                                            <h3>Social Media Management</h3>
                                             <div className="space16"></div>
-                                            <p>We specialize in crafting responsive and visually engaging websites that align seamlessly with your brand identity. Our skilled team ensures robust functionality, and user-friendly interfaces to meet and exceed your business objectives.</p>
+                                            <p>Our Social Media Management services help you establish a consistent and visually appealing online presence. We focus on creating engaging content with well-coordinated aesthetics and colors, ensuring your page stands out. With timely posting according to a proper schedule and effective campaign management, we drive traffic and track analytics to ensure your growth.</p>
                                         </div>
                           
                                     </div>
@@ -81,6 +81,7 @@ const Web = () => {
                                       </ul>
                                   </div>
                               </div>
+    
                              
 
                               <div className="details-sidebox">
@@ -100,4 +101,4 @@ const Web = () => {
     );
 };
 
-export default Web;
+export default Social;

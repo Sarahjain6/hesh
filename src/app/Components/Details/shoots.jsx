@@ -68,16 +68,16 @@ High-quality professional camera shoots for events, brand promotions, and more. 
                         <div className="col-lg-4">
                             <div className="side-all">
                                    
-                              <div className="details-sidebox">
+                               <div className="details-sidebox">
                                   <h3>Other Services </h3>
                                   <div className="categorys">
                                       <ul>
-                                      <li><Link href="/service/seo">SEO & Digital Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Pay-Per-Click Strategy <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Social Media Success <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Social Media Campaigns <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">Local Business Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
-                                  <li><Link href="/case/case-details">E-commerce SEO <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                      <li><Link href="/service/seo">Google Seo <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/webdev">Web Development <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="//service/shoots">Professional Camera Shoots <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/graphic">Graphic Designing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/email">Email and Whatsapp Marketing<span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
+                                  <li><Link href="/service/erformance">Performance Marketing <span className="arrow"><i className="bi bi-arrow-right"></i></span></Link></li>
                                       </ul>
                                   </div>
                               </div>
